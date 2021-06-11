@@ -1,0 +1,16 @@
+.background {
+    background: url(https://preview.colorlib.com/theme/personal/img/blog/xblog-home-banner.jpg.pagespeed.ic.LNeIdTttnV.webp) bottom;
+    background-size: cover;
+    padding: 130px 0;
+    position: relative;
+    height: 780px;
+}
+
+.overlay{
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
