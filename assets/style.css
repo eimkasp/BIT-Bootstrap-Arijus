@@ -1,16 +1,51 @@
 .background {
-    background: url(https://preview.colorlib.com/theme/personal/img/blog/xblog-home-banner.jpg.pagespeed.ic.LNeIdTttnV.webp) bottom;
-    background-size: cover;
-    padding: 130px 0;
-    position: relative;
-    height: 780px;
+  background: url(https://preview.colorlib.com/theme/personal/img/blog/xblog-home-banner.jpg.pagespeed.ic.LNeIdTttnV.webp)
+    bottom;
+  background-size: cover;
+  padding: 130px 0;
+  position: relative;
+  height: 780px;
+  margin-bottom: 50px;
 }
 
-.overlay{
-    position: absolute;
-    background: rgba(0,0,0,.5);
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
+
+.background a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.card_hover:hover .overlay {
+  background: rgba(42, 5, 129, 0.8);
+}
+
+.article a {
+  color: grey;
+  text-decoration: none;
+}
+
+.article a:hover {
+    color: deepskyblue;
+  }
+
+.article a.btn:hover {
+  background-color: deepskyblue;
+  color: white;
+}
+
+.border_dots {
+    border-bottom: dotted;
+    border-color: lightgray;
+    border-width: 2px;
+}
+
+a.border_dots:hover {
+    border-color: deepskyblue;
+  }
